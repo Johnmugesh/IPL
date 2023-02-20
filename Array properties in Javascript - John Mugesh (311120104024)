@@ -1,0 +1,12 @@
+Array properties in Javascript
+
+1. Constructor
+           Returns a reference to the array function that created the object.
+2. Index
+           The property represents the zero-based index of the match in the string.
+3. Input
+           This property is only present in arrays created by regular expression matches.
+4. Length
+           Reflects the number of elements in an array.
+5. Prototype
+           The prototype property allows you to add properties and methods to an object.
