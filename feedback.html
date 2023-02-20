@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Feed back
+        </title>
+        <script>
+            function feedvallidation() {
+             let a = document.forms["fb"]["name"].value;
+             let b = document.forms["fb"]["ta"].value;
+             if (a == "" && b == "") {
+                alert("Enter Name and Feedback");
+                return false;
+            }
+            else if (a == ""){
+                alert("Enter Name");
+                return false;
+            }   
+            else if (b == ""){
+                alert("Enter Feedback");
+                return false;
+            } 
+             else if (b != ""){
+                alert("feedback submitted");
+                return false;
+             }
+            }
+        </script>
+        
+    </head>
+    <body>
+        
+        <h2>Feedback</h2>
+        <form name="fb">
+        <table>
+            <tr>
+                <td>Name : </td>
+                <td><input type="text" name="name"></td>
+            </tr> 
+            <tr>
+                <td>Comments :</td>
+            </tr>
+        </table>
+        <br>
+        <textarea rows="10" cols="100" name="ta"></textarea>
+           
+        <br>
+        <input type="submit" name="submit" onclick="feedvallidation()">
+    </form>
+        
+    </body>
+</html>
