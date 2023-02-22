@@ -32,7 +32,7 @@
 <body>
     <center>
         <h2>Login Page</h2>
-    <form name="login" >
+    <form name="login" onsubmit="return registeration()">
         <div>
             username : <input type="text" name="username" >
             <br><br>
@@ -40,7 +40,7 @@
             <br><br>
         </div>
         <div>
-            <input type="submit" name="submit" onclick="validateForm()" formaction="https://yomovies.help/"> &nbsp;&nbsp;&nbsp;
+            <input type="submit" name="submit" formaction="https://yomovies.help/"> &nbsp;&nbsp;&nbsp;
             <input type="reset" name="reset">
         </div>
     </form>
