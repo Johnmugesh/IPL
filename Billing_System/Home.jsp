@@ -12,7 +12,7 @@
     Statement stmt = null;
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/movies", "root", "kanish");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/movies", "root", "");
         if (conn != null) {
             out.println("<h1> XYZ Online Shop</h1>");
         }
