@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="1">
+    <name>John Doe</name>
+    <email>john.doe@example.com</email>
+    <address>
+      <street>123 Main St</street>
+      <city>Anytown</city>
+      <state>CA</state>
+      <zip>12345</zip>
+    </address>
+  </user>
+  <user id="2">
+    <name>Jane Smith</name>
+    <email>jane.smith@example.com</email>
+    <address>
+      <street>456 Elm St</street>
+      <city>Anytown</city>
+      <state>CA</state>
+      <zip>12345</zip>
+    </address>
+  </user>
+  <user id="3">
+    <name>Bob Johnson</name>
+    <email>bob.johnson@example.com</email>
+    <address>
+      <street>789 Oak St</street>
+      <city>Anytown</city>
+      <state>CA</state>
+      <zip>12345</zip>
+    </address>
+  </user>
+  <user id="4">
+    <name>Alice Williams</name>
+    <email>alice.williams@example.com</email>
+    <address>
+      <street>321 Pine St</street>
+      <city>Anytown</city>
+      <state>CA</state>
+      <zip>12345</zip>
+    </address>
+  </user>
+  <user id="5">
+    <name>David Lee</name>
+    <email>david.lee@example.com</email>
+    <address>
+      <street>654 Birch St</street>
+      <city>Anytown</city>
+      <state>CA</state>
+      <zip>12345</zip>
+    </address>
+  </user>
+  </users>
